@@ -1,7 +1,7 @@
 # roam-beautified
 CSS for beautifying Roam Research (roamresearch.com).
 
-<img src="roam-beautified-screenshot.png" width="500">
+<img src="roam-beautified-screenshot.png" width="1000">
 
 ## Instructions:
 1. Download Stylus: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
