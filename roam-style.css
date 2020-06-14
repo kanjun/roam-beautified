@@ -58,6 +58,13 @@ textarea {
     padding: 0.4em 0.2em;
 }
 
+/* Main block - remove centering and make sidebar bigger */
+
+.roam-center {
+  --align-item: center;
+  flex-basis: 45% !important;
+}
+
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
     padding: 6px;
     padding-top: 8px;
@@ -72,9 +79,26 @@ div.flex-v-box.starred-pages-wrapper > div.flex-h-box > span {
 
 div.roam-sidebar-container.noselect > div > div {
     font-size: 14px;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;   
 }
+#right-sidebar > div {
+    background-color: #f7f8fa;
+}
+#roam-right-sidebar-content > div > div:first-child {
+    margin-left: -7px;
+}
+/* sidebar sections */
+#roam-right-sidebar-content > div {
+  border-bottom: 1px solid #ddd !important;
+  margin: 0 !important;
+  padding: 40px 10px 40px 50px;
+}
+/* page headings in right sidebar */
+#right-sidebar .level2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
 
 #block-input {
     background: white;
@@ -90,9 +114,6 @@ span.bp3-icon-small.bp3-icon-star {
     visibility: hidden;
 }
 
-#right-sidebar > div {
-    background-color: #f7f8fa;
-}
 .rm-page-ref-brackets {
     display: none;
 }
@@ -232,5 +253,3 @@ span.rm-page-ref[data-tag="Quick Capture"] {
     line-height: 1.4em;
     font-weight: 700;
 }
-
-
