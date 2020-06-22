@@ -1,5 +1,4 @@
-
-.h1,
+h1,
 .h2,
 .h3,
 .h4,
@@ -99,7 +98,6 @@ div.roam-sidebar-container.noselect > div > div {
     font-weight: 500;
 }
 
-
 #block-input {
     background: white;
 }
@@ -163,6 +161,13 @@ span.bp3-icon-small.bp3-icon-star {
 .rm-block-ref:hover {
     background: none;
     cursor: pointer;
+}
+.rm-embed-inner-block-hide {
+    background: #ffffffb8 !important;
+    font-size: .9em;
+}
+.rm-embed-inner-block-hide:hover {
+    margin-left: -30px;
 }
 .checkmark {
     background: #fff;
