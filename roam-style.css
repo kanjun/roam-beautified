@@ -1,84 +1,56 @@
-h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Inter';
-}
-
-div,
-textarea {
-  font-family: 'SF Pro Display';
-  font-size: 100.7%;
-  color: #2d3c4e
+:root {
+    --header-font: "Inter";
+    --body-font: "SF Pro Display";
+    --font-size: 1.15em;
+    --text-color: #2d3c4e;
 }
 
 .roam-block-container {
     max-width: 1000px;
 }
-
 .rm-query {
     border: 0.5px solid #e4e9ec;
     border-radius: 5px;
-    
 }
-
 .rm-query .rm-query-title {
     background-color: #f7f8f8;
     padding: 0.8em;
     color: #d1dbe2;
     font-size: 80%;
 }
-
 .rm-reference-main.rm-query-content {
     padding: 0.8em;
 }
-
 .rm-reference-main .rm-reference-item .rm-block-text {
     font-size: 90%;
 }
-
 .rm-ref-page-view-title span {
     font-size: 115%
 }
-
 .rm-reference-main .rm-reference-item .controls {
     margin-left: -1em;
 }
-
 .rm-ref-page-view {
     padding: 0.4em 0.2em;
 }
-
 /* Main block - remove centering and make sidebar bigger */
-
 .roam-center {
-  --align-item: center;
-  flex-basis: 45% !important;
+    --align-item: center;
+    flex-basis: 50% !important;
 }
-
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
     padding: 6px;
     padding-top: 8px;
     font-size: 110%;
 }
-
 div.flex-v-box.starred-pages-wrapper > div.flex-h-box > span {
     font-size: 14px;
     opacity: 80%;
     letter-spacing: 0.0em;
 }
-
 div.roam-sidebar-container.noselect > div > div {
     font-size: 14px;
-    letter-spacing: 0.03em;   
+    letter-spacing: 0.03em;
 }
 #right-sidebar > div {
     background-color: #f7f8fa;
@@ -88,30 +60,26 @@ div.roam-sidebar-container.noselect > div > div {
 }
 /* sidebar sections */
 #roam-right-sidebar-content > div {
-  border-bottom: 1px solid #ddd !important;
-  margin: 0 !important;
-  padding: 40px 10px 40px 50px;
+    border-bottom: 1px solid #ddd !important;
+    margin: 0 !important;
+    padding: 40px 10px 40px 50px;
 }
 /* page headings in right sidebar */
 #right-sidebar .level2 {
     font-size: 32px;
     font-weight: 500;
 }
-
 #block-input {
     background: white;
 }
-
 .roam-body #block-input > span > div {
     padding: 6px 24px;
     background: white;
 }
-
 span.bp3-icon-small.bp3-icon-star {
     display: none;
     visibility: hidden;
 }
-
 .rm-page-ref-brackets {
     display: none;
 }
@@ -191,7 +159,6 @@ span.bp3-icon-small.bp3-icon-star {
     background-color: #f7f9fb;
     padding: 8px;
 }
-
 .rm-level2 {
     font-size: 1.5em;
 }
@@ -242,8 +209,6 @@ span.rm-page-ref {
 .center-proj {
     text-align: center;
 }
-
-
 span.rm-page-ref[data-tag="Projects"] {
     background: #7172FC;
     color: #fff;
@@ -251,7 +216,6 @@ span.rm-page-ref[data-tag="Projects"] {
     line-height: 2em;
     font-weight: 500;
 }
-
 span.rm-page-ref[data-tag="Quick Capture"] {
     color: #db3b8d;
     padding: 3px 4px;
